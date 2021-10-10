@@ -23,8 +23,10 @@ function App() {
         birth={new Date('1992-07-14')}
         picture={'https://randomuser.me/api/portraits/women/44.jpg'}
       />
+      
       <h1>Greetings</h1>
-      <Greetings />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }

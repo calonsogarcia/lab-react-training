@@ -1,8 +1,17 @@
 import React from 'react'
 
+const idCardStyle = {
+    border: 'solid',
+    borderColor: 'black',
+    display: 'flex',
+    flexFlow: 'column wrap',
+    alignContent: 'start',
+}
+
+
 export default function IdCard (props){
     const {lastName, firstName, gender, height, birth, picture} = props;
-    return <div>
+    return <div style={idCardStyle}>
         <picture>
             <img src={picture} alt=""/>
         </picture>
